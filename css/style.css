@@ -11,10 +11,40 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*HEADER*/
 
 /*MAIN*/
 
-/*FOOTER*/
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/*RESPONSIVE*/
+.my-carousel{
+    width: 800px;
+    height: 500px;
+}
+
+.my-carousel .img-container{
+    background-color: aqua;
+    height: 100%;
+}
+
+.my-carousel .button-containers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-carousel .button-containers > *{
+    margin: 0 10px;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
